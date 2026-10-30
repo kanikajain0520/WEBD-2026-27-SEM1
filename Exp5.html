@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>exp5</title>
+    </head>
+    <body>
+        <h1 align="center">Student Registration Form</h1>
+        <hr>
+        <form method ="post" action="exp5.php">
+            <table align="center" border="1">
+                <tr>
+                    <td>Full Name</td>
+                    <td><input type="text" name="fullname" placeholder="Enter your full name" required></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="gender" value="male" required> Male
+                        <input type="radio" name="gender" value="female"> Female
+                        <input type="radio" name="gender" value="other"> Other
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><input type="date" name="dob" required></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="email" placeholder="Enter your email" required></td>
+                </tr>
+                <tr>
+                    <td>Phone Number</td>
+                    <td><input type="tel" name="phone" placeholder="Enter your phone number" required></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><textarea name="address" rows="4" cols="30" placeholder="Enter your address" required></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Submit"></td>
+                </tr>
+            </table>
